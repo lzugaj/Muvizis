@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Muvizis</string>
+    <string name="action_exit">Exit</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="show_details">Show details</string>
+    <string name="get_movie_info">Get movie info</string>
+    <string name="movie_name">Movie name</string>
+    <string name="search_movie">Search Movie</string>
+    <string name="movie_name_hint">Movie name</string>
+    <string name="dodaj">Dodaj</string>
+    <string name="uredi">Uredi</string>
+    <string name="obrisi">Obriši</string>
+    <string name="glumac">Glumac</string>
+    <string name="naslov">Naslov</string>
+    <string name="text_list">Text</string>
+</resources>

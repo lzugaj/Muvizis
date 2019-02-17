@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="4dp"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/text_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvMovieTitle"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="@string/text_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvMovieActor"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <Button
+        android:background="#222"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:focusable="false"
+        android:clickable="false"
+        android:focusableInTouchMode="false"
+        android:id="@+id/button"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="4dp" />
+</LinearLayout>
